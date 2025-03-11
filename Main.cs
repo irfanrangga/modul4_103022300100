@@ -5,9 +5,9 @@ public class MainClass
 {
     public static void Main(string[] args)
     {
-        //kodeProduk kp = new kodeProduk();
-        //Console.WriteLine("Kode produk laptop: " + kp.getKodeProduk(kodeProduk.Produk.Laptop));
-        //Console.WriteLine("Kode produk kamera: " + kp.getKodeProduk(kodeProduk.Produk.Kamera));
+        kodeProduk kp = new kodeProduk();
+        Console.WriteLine("Kode produk laptop: " + kp.getKodeProduk(kodeProduk.Produk.Laptop));
+        Console.WriteLine("Kode produk kamera: " + kp.getKodeProduk(kodeProduk.Produk.Kamera));
 
         FanLaptop fl = new FanLaptop();
 
